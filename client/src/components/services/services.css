@@ -1,0 +1,59 @@
+.services__pg {
+    /* margin: 40px 0 10px 0;
+    padding: 2%; */
+    background: #000;
+}
+
+.services__title {
+    margin-top: 30%;
+}
+
+.services__heading {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.services__heading--main {
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.services__heading--sub{
+    font-size: 5rem;
+    line-height: 0.3;
+}
+
+.services__desc {
+    margin-top: 55px;
+}
+
+.services__desc p{
+    color: #9a9898;
+    font-size: 1rem;
+}
+
+.services__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.service__item{
+    padding: 5%;
+    height: 100%;
+    color: #9a9898;
+}
+
+.service__icon {
+    font-size: 5rem;
+    color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px;
+}
+
+.service__detail p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+

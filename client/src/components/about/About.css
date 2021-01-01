@@ -1,0 +1,32 @@
+.heading {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.heading.heading--main {
+    font-size: 5rem;
+}
+
+.heading.heading--sub {
+    font-weight: bold;
+    font-size: 7rem;
+    line-height: 0.3;
+}
+
+.col--left{
+    background: #000;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.section__detail {
+     margin: 10%;
+    padding: 50px;
+    text-align: center;
+   
+}
+.section__detail p {
+    font-size: 1.15rem;
+}

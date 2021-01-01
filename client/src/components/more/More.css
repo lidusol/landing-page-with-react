@@ -1,0 +1,16 @@
+.section {
+    padding: 60px 0;
+  }
+  .section__item {
+    box-shadow: -2px 3px #000;
+    padding: 17px;
+    height: 100%;
+  }
+  .item__title {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .item__detail p {
+    font-size: 1.15rem;
+  }

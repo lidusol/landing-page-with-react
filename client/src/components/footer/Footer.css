@@ -1,0 +1,37 @@
+.footer {
+  background: #000;
+  color: #ffffffcc;
+  padding: 20px 10%;
+}
+
+.footer__heading {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer .col--right {
+  text-align: right;
+}
+
+.nav-links li {
+  list-style: none;
+  font-size: 1.25rem;
+  text-align: right;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.mailto {
+  color: #ffffffcc;
+  font-size: 1rem;
+}
+
+.mailto:hover{
+  color: #fff;
+}

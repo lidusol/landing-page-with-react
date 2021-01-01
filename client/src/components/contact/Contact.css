@@ -1,0 +1,40 @@
+.contact__pg {
+    padding: 70px 5px;
+}
+
+.form__title{
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.form__desc {
+    font-size: 1rem;
+}
+
+.btn-mail {
+    color: #fff;
+    background: #000;
+    border-radius: .5rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.btn-mail:hover{
+    color: rgb(218, 212, 212);
+}
+
+.contact__form .form-control{
+    color: #191919;
+    background-color: #d6d6d6;
+    background-clip: padding-box;
+    border: 1px solid #d6d6d6;
+    border-radius: .8rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-style: italic;
+}
+
+.form-notification p {
+    font-size: 1.25rem;
+    color: #6d4141;
+    font-style: italic;
+    font-family: serif;
+}
