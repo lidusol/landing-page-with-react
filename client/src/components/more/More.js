@@ -16,7 +16,7 @@ class More extends Component {
           <MDBCol>
             <div className="section__item">
               <div>
-                <img src={team} width="100px"/>
+                <img src={team} width="100px" height="auto" alt="team icon"/>
               </div>
               <div className="item__title">
                 <h3>our team</h3>
@@ -29,7 +29,7 @@ class More extends Component {
           <MDBCol>
           <div className="section__item">
             <div>
-                <img src={reward} width="100px"/>
+                <img src={reward} width="100px" height="auto"  alt="rewards icon"/>
               </div>
               <div className="item__title">
                 <h3>ACHIEVEMENTS & REWARDS</h3>
@@ -42,7 +42,7 @@ class More extends Component {
           <MDBCol>
             <div className="section__item">
               <div>
-                <img src={news} width="100px"/>
+                <img src={news} width="100px" height="auto"  alt="news icon"/>
               </div>
               <div className="item__title">
                 <h3>NEWS & STORIES</h3>

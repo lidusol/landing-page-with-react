@@ -18,11 +18,11 @@ class Services extends Component {
             <div className="services__title">
               <h1 className="services__heading services__heading--main">Our</h1>
               <h1 className="services__heading services__heading--sub">Services</h1>
-            </div>
-            <div className="services__desc">
-              <p>
-                 We provide services to keep your company on the same pace with the entire globe
-              </p>
+              <div>
+                <p className="services__desc">
+                  We provide services to keep your company on the same pace with the entire globe
+                </p>
+              </div>
             </div>
           </MDBCol>
           <MDBCol lg="7" md="7">
@@ -31,7 +31,7 @@ class Services extends Component {
                 <MDBCol lg="6" md="6">
                   <div className="service__item text-center">
                     <div className="service__icon">
-                      <img src={erp} width="100px" />
+                      <img src={erp} width="100px" height="auto"  alt="erp icon"/>
                       {/* <i className="fas fa-network-wired"></i> */}
                     </div>
                     <div className="service__title">
@@ -47,7 +47,7 @@ class Services extends Component {
                 <MDBCol lg="6" md="6">
                   <div className="service__item text-center">
                     <div className="service__icon">
-                      <img src={networkingDesign} width="100px" />
+                      <img src={networkingDesign} width="100px" height="auto"  alt="networking design icon" />
                     </div>
                     <div className="service__title">
                       <h3>NETWORKING DESIGN</h3>
@@ -68,7 +68,7 @@ class Services extends Component {
                 <MDBCol lg="6" md="6">
                   <div className="service__item text-center">
                     <div className="service__icon">
-                      <img src={networkingInstallation} width="100px" />
+                      <img src={networkingInstallation} width="100px" height="auto"  alt="network installation icon"/>
                     </div>
                     <div className="service__title">
                       <h3>NETWORKING INSTALLATION</h3>
@@ -89,7 +89,7 @@ class Services extends Component {
                 <MDBCol lg="6" md="6">
                   <div className="service__item text-center">
                     <div className="service__icon">
-                      <img src={itAssist} width="100px" />
+                      <img src={itAssist} width="100px" height="auto"  alt="it assist icon" />
                     </div>
                     <div className="service__title">
                       <h3>IT ASSIST & CONSULTANCY</h3>
@@ -110,7 +110,7 @@ class Services extends Component {
                 <MDBCol lg="6" md="6">
                   <div className="service__item text-center">
                     <div className="service__icon">
-                      <img src={softwareWeb} width="100px" />
+                      <img src={softwareWeb} width="100px" height="auto"  alt="software and web development icon" />
                     </div>
                     <div className="service__title">
                       <h3>SOFTWARE & WEB DEVELOPMENT</h3>
@@ -125,7 +125,7 @@ class Services extends Component {
                 <MDBCol lg="6" md="6">
                   <div className="service__item text-center">
                     <div className="service__icon">
-                      <img src={systemDev} width="100px" />
+                      <img src={systemDev} width="100px" height="auto"  alt="system development icon"/>
                     </div>
                     <div className="service__title">
                       <h3>SYSTEM DEVELOPMENT</h3>

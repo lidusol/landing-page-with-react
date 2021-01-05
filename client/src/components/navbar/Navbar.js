@@ -6,7 +6,8 @@ import { MDBContainer } from "mdbreact";
 export default class Navbar extends Component {
   render() {
     return (
-      <MDBContainer fluid className="rc__navbar">
+      <MDBContainer fluid>
+        <div className="navbar__border"></div>
         <div className="navbar-container">
           <ul>
             <li><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>

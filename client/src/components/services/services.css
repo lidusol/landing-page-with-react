@@ -5,6 +5,8 @@
 }
 
 .services__title {
+    position: sticky;
+    top: 10%;
     margin-top: 30%;
 }
 
@@ -19,15 +21,12 @@
 }
 
 .services__heading--sub{
-    font-size: 5rem;
+    font-size: 4.25rem;
     line-height: 0.3;
 }
 
 .services__desc {
     margin-top: 55px;
-}
-
-.services__desc p{
     color: #9a9898;
     font-size: 1rem;
 }

@@ -11,7 +11,7 @@ class Home extends Component {
           <p>Redwan Computer Networking, 
           <br></br>Design and Consultancy </p>
             <div className="logo">
-              <img src={logo} width="200px" />
+              <img src={logo} width="200" height="auto" alt="rcndc logo"/>
             </div>
         </div>
       </div>

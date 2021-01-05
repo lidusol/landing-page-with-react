@@ -1,5 +1,9 @@
-.rc__navbar {
-    padding-right: 0;
+.navbar__border {
+    border-right: 20px solid #fff;
+    border-top: 64px solid transparent;
+    width: 50px;
+    position: absolute;
+    right: 338px;
 }
 
 .navbar-container {
@@ -7,7 +11,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding: 1.25rem 2.25rem;
+    padding: 1.25rem;
 }
 
 .navbar-container ul {
@@ -18,8 +22,18 @@
 .navbar-container ul li {
     display: inline;
     font-size: 1rem;
-    padding-left: 20px;
+    padding-left: 1rem;
     color: #000;
     text-transform: uppercase;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 480px) {
+    .navbar__border {
+        display: none;
+    }
+
+    .navbar-container {
+      width: 100%;
+    }
+  }

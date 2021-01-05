@@ -5,7 +5,7 @@
 }
 
 .heading.heading--main {
-    font-size: 5rem;
+    font-size: 4.25rem;
 }
 
 .heading.heading--sub {
@@ -22,8 +22,8 @@
 
 
 .section__detail {
-     margin: 10%;
-    padding: 50px;
+    margin: 10%;
+    padding: 5%;
     text-align: center;
    
 }

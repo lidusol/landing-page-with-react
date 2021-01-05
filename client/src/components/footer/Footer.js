@@ -17,7 +17,7 @@ export default class Footer extends Component {
                <p>Addis Ababa, Ethiopia</p>
              </div>
            </MDBCol>
-           <MDBCol className="col--right">
+           <MDBCol>
              <div className="nav-links">
               <li><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
               <li><Link  to="about" spy={true} smooth={true}>About</Link></li>

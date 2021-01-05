@@ -1,16 +1,12 @@
 .footer {
   background: #000;
   color: #ffffffcc;
-  padding: 20px 10%;
+  padding: 1.25rem 8%;
 }
 
 .footer__heading {
   text-transform: uppercase;
   color: #fff;
-}
-
-.footer .col--right {
-  text-align: right;
 }
 
 .nav-links li {
