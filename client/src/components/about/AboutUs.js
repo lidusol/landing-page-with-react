@@ -18,11 +18,7 @@ class AboutUs extends Component {
             <div className="section__detail">
               <p>
               RCNDC is a private company that started operation in Addis Ababa on 2017. 
-              It was founded by Redwan Abdu. 
-              The acronym RCNDC stands for Redwan Computer Networking Design and Consultancy.
-              </p>
-              <p>
-              RCNDC was established on the mindset of resolving the technology delay of enterprises. 
+              It was established on the mindset of resolving the technology delay of enterprises. 
               Hence, it has worked with different companies and has succeeded in simplifying work progress, 
               effectiveness, client satisfaction, saving time, convenience, and cost efficiency.
               </p>

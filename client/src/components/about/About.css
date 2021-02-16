@@ -1,7 +1,7 @@
 .heading {
     color: #fff;
     text-transform: uppercase;
-    text-align: right;
+    /* text-align: center; */
 }
 
 .heading.heading--main {
@@ -18,8 +18,9 @@
     background: #000;
     padding-top: 10%;
     padding-bottom: 10%;
+    clip-path: polygon(0 0%, 70% 0%, 100% 100%, 0% 100%);
+    margin-bottom: -1px;
 }
-
 
 .section__detail {
     margin: 10%;

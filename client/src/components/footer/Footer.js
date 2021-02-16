@@ -11,7 +11,7 @@ export default class Footer extends Component {
            <MDBCol>
              <div>
                <h3 className="footer__heading">Reach us</h3>
-               <p><a className="mailto" href="mailto:contact@adimera.com">contact@adimera.com</a></p>
+               <p><a className="mailto" href="mailto:contact@rcndc.com">contact@rcndc.com</a></p>
                <p>+251 925 002 580  / +251 943 141 717</p>
                <p>P.O. box 230/1070</p>
                <p>Addis Ababa, Ethiopia</p>

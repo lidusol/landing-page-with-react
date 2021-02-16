@@ -8,9 +8,7 @@ class Home extends Component {
     return (
       <div className="home_pg">
         <div className="home__header">
-          <p>Redwan Computer Networking, 
-          <br></br>Design and Consultancy </p>
-            <div className="logo">
+          <div className="logo">
               <img src={logo} width="200" height="auto" alt="rcndc logo"/>
             </div>
         </div>

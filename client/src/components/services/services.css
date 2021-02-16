@@ -1,6 +1,4 @@
 .services__pg {
-    /* margin: 40px 0 10px 0;
-    padding: 2%; */
     background: #000;
 }
 
@@ -8,6 +6,7 @@
     position: sticky;
     top: 10%;
     margin-top: 30%;
+    margin-bottom: 20%;
 }
 
 .services__heading {
